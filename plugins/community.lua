@@ -10,9 +10,10 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.nix" },
 
-  -- { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.scrolling.mini-animate" },
 
   { import = "astrocommunity.comment.mini-comment" },
 
@@ -36,6 +37,8 @@ return {
   -- { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
   -- Introduces unnecessary noise to rust diagnostics, Probably already setup in astro default config
   { import = "astrocommunity.diagnostics.trouble-nvim" },
+
+  { import = "astrocommunity.media.pets-nvim" },
 
   { import = "astrocommunity.note-taking.neorg" },
   { import = "astrocommunity.colorscheme.nightfox",        enabled = false },
