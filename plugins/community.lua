@@ -13,7 +13,7 @@ return {
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.nix" },
 
-  { import = "astrocommunity.scrolling.mini-animate" },
+  -- { import = "astrocommunity.scrolling.mini-animate" },
 
   { import = "astrocommunity.comment.mini-comment" },
 
