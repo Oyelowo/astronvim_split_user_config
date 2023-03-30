@@ -14,7 +14,7 @@ return {
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.julia" },
-  { import = "astrocommunity.pack.haxe" },
+  -- { import = "astrocommunity.pack.haxe" },
   { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.pack.svelte" },
