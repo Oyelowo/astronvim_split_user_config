@@ -58,7 +58,7 @@ return {
 
   { import = "astrocommunity.note-taking.neorg" },
 
-  { import = "astrocommunity.git.git-blame" },
+  -- { import = "astrocommunity.git.git-blame" },
   
   { import = "astrocommunity.colorscheme.nightfox",        enabled = false },
   { import = "astrocommunity.colorscheme.kanagawa",        enabled = false },
