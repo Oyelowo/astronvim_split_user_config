@@ -42,6 +42,9 @@ return {
   { import = "astrocommunity.media.pets-nvim" },
 
   { import = "astrocommunity.note-taking.neorg" },
+  
+  { import = "astrocommunity.git.git-blame" },
+
   { import = "astrocommunity.colorscheme.nightfox",        enabled = false },
   { import = "astrocommunity.colorscheme.kanagawa",        enabled = false },
   { import = "astrocommunity.colorscheme.rose-pine",       enabled = false },
@@ -50,7 +53,8 @@ return {
   { import = "astrocommunity.colorscheme.onigiri" },
   { import = "astrocommunity.colorscheme.tokyonight" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { -- further customize the options set by the community
+  {
+    -- further customize the options set by the community
     "catppuccin",
     opts = {
       integrations = {
@@ -68,7 +72,8 @@ return {
     },
   },
   { import = "astrocommunity.completion.copilot-lua" },
-  { -- further customize the options set by the community
+  {
+    -- further customize the options set by the community
     "copilot.lua",
     opts = {
       suggestion = {
