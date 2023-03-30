@@ -10,8 +10,23 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.julia" },
+  { import = "astrocommunity.pack.haxe" },
+  { import = "astrocommunity.pack.cmake" },
   { import = "astrocommunity.pack.nix" },
+  { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.edgedb" },
 
   -- { import = "astrocommunity.scrolling.mini-animate" },
 
@@ -42,9 +57,9 @@ return {
   { import = "astrocommunity.media.pets-nvim" },
 
   { import = "astrocommunity.note-taking.neorg" },
-  
-  { import = "astrocommunity.git.git-blame" },
 
+  { import = "astrocommunity.git.git-blame" },
+  
   { import = "astrocommunity.colorscheme.nightfox",        enabled = false },
   { import = "astrocommunity.colorscheme.kanagawa",        enabled = false },
   { import = "astrocommunity.colorscheme.rose-pine",       enabled = false },
