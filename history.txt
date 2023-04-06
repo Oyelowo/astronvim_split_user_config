@@ -1,0 +1,35 @@
+#V2
+SELECT * FROM geo::hash::decode("mpuxk4s24f51");\n
+SELECT * FROM geo::hash::decode("{\n	"type": "Point",\n	"coordinates": [\n		51.50986494496465,\n		-0.11809204705059528\n	]\n}");\n
+SELECT * FROM geo::hash::decode({\n	"type": "Point",\n	"coordinates": [\n		51.50986494496465,\n		-0.11809204705059528\n	]\n});\n
+SELECT * FROM http::patch('https://dummyjson.com/comments/1', {\n  "id": 1,\n  "body": "This is some awesome thinking!",\n  "postId": 100,\n  "user": {\n    "id": 63,\n    "username": "eburras1q"\n  }\n});
+SELECT * FROM http::patch('https://dummyjson.com/comments/1', {\n  "id": 1,\n  "body": "This is some awesome thinking!",\n  "postId": 100,\n  "user": {\n    "id": 63,\n    "username": "eburras1q"\n  }\n}, {});
+SELECT * FROM http::patch('https://dummyjson.com/comments/1',{}, {});
+SELECT * FROM http::patch('https://dummyjson.com/comments/1',, {});
+SELECT * FROM http::patch('https://dummyjson.com/comments/1',null, {});
+SELECT * FROM http::patch('https://dummyjson.com/comments/1',NONE, {});
+SELECT * FROM http::patch('https://dummyjson.com/comments/1',{}, {});
+SELECT * FROM rand::float();\n
+SELECT * FROM rand::float(45);\n
+SELECT * FROM rand::float(45, 56);\n
+SELECT * FROM rand::string(15);\n
+SELECT * FROM rand::string(4);\n
+SELECT * FROM rand::int(10, 15);\n
+SELECT * FROM rand::int(10);\n
+DEFINE FIELD location ON TABLE restaurant TYPE geometry;
+DEFINE FIELD location ON TABLE restaurant TYPE geometry (point);\n
+DEFINE FIELD location ON TABLE restaurant TYPE geometry (feature);\n
+DEFINE FIELD posts.* ON TABLE user TYPE record;\n
+DEFINE FIELD posts ON TABLE user TYPE array;\n
+DEFINE FIELD posts.* ON TABLE user TYPE record;\n
+DEFINE FIELD posts.* ON TABLE user TYPE record(post);\n
+DEFINE FIELD posts.* ON TABLE user TYPE record;\n
+DEFINE FIELD postx ON TABLE user TYPE record(post);\n
+DEFINE FIELD postx ON TABLE user TYPE record;\n
+DEFINE FIELD postxx ON TABLE user TYPE record;\n
+DEFINE FIELD postx ON TABLE user TYPE record;\n
+DEFINE FIELD postx ON TABLE user TYPE record(post);\n
+DEFINE FIELD postx ON TABLE user TYPE record(nama);\n
+DEFINE FIELD postx ON TABLE user TYPE record;\n
+DEFINE FIELD posts ON TABLE user TYPE array;\n-- Set the contents of the array to only support a record data type\nDEFINE FIELD posts.* ON TABLE user TYPE record;
+DEFINE FIELD posts ON TABLE user TYPE array;\n-- Set the contents of the array to only support a record data type\nDEFINE FIELD posts.* ON TABLE user TYPE record();

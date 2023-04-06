@@ -29,8 +29,13 @@ return {
   { import = "astrocommunity.pack.edgedb" },
 
   -- { import = "astrocommunity.scrolling.mini-animate" },
+  -- { import = "astrocommunity.scrolling.cinnamon-nvim" },
 
   { import = "astrocommunity.comment.mini-comment" },
+
+  { import = "astrocommunity.note-taking.obsidian-nvim" },
+
+  { import = "astrocommunity.markdown-and-latex.vimtex" },
 
   -- Has some weird error messages for now
   -- { import = "astrocommunity.motion.mini-basics" },
@@ -38,7 +43,10 @@ return {
   { import = "astrocommunity.motion.mini-bracketed" },
   { import = "astrocommunity.motion.mini-move" },
   { import = "astrocommunity.motion.portal-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
 
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  
   { import = "astrocommunity.project.nvim-spectre" },
   -- This plugin is problematic and collides with rust server to provide autocompletion
   -- { import = "astrocommunity.project.neoconf-nvim" },
@@ -58,7 +66,7 @@ return {
 
   { import = "astrocommunity.note-taking.neorg" },
 
-  -- { import = "astrocommunity.git.git-blame" },
+  -- { import = "astrocommunity.git.git-blame-nvim" },
   
   { import = "astrocommunity.colorscheme.nightfox",        enabled = false },
   { import = "astrocommunity.colorscheme.kanagawa",        enabled = false },
