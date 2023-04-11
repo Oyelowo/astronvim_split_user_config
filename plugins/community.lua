@@ -45,7 +45,7 @@ return {
   { import = "astrocommunity.motion.portal-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
 
-  { import = "astrocommunity.editing-support.auto-save-nvim" },
+  -- { import = "astrocommunity.editing-support.auto-save-nvim" },
   
   { import = "astrocommunity.project.nvim-spectre" },
   -- This plugin is problematic and collides with rust server to provide autocompletion
