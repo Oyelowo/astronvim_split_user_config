@@ -5,7 +5,6 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.python" },
@@ -46,7 +45,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
 
   -- { import = "astrocommunity.editing-support.auto-save-nvim" },
-  
+
   { import = "astrocommunity.project.nvim-spectre" },
   -- This plugin is problematic and collides with rust server to provide autocompletion
   -- { import = "astrocommunity.project.neoconf-nvim" },
@@ -64,10 +63,10 @@ return {
 
   { import = "astrocommunity.media.pets-nvim" },
 
-  { import = "astrocommunity.note-taking.neorg" },
+  -- { import = "astrocommunity.note-taking.neorg" },
 
   -- { import = "astrocommunity.git.git-blame-nvim" },
-  
+
   { import = "astrocommunity.colorscheme.nightfox",        enabled = false },
   { import = "astrocommunity.colorscheme.kanagawa",        enabled = false },
   { import = "astrocommunity.colorscheme.rose-pine",       enabled = false },
@@ -94,6 +93,7 @@ return {
       },
     },
   },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.completion.copilot-lua" },
   {
     -- further customize the options set by the community
