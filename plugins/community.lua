@@ -30,6 +30,9 @@ return {
   -- { import = "astrocommunity.scrolling.mini-animate" },
   -- { import = "astrocommunity.scrolling.cinnamon-nvim" },
 
+
+
+
   { import = "astrocommunity.comment.mini-comment" },
 
   { import = "astrocommunity.note-taking.obsidian-nvim" },
@@ -113,6 +116,7 @@ return {
   },
   { import = "astrocommunity.bars-and-lines.smartcolumn-nvim" },
   { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
+  { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
   {
     "m4xshen/smartcolumn.nvim",
     opts = {
