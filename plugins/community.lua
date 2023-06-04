@@ -75,8 +75,8 @@ return {
   { import = "astrocommunity.colorscheme.rose-pine",       enabled = false },
   { import = "astrocommunity.colorscheme.everforest" },
   { import = "astrocommunity.colorscheme.mini-base16" },
-  { import = "astrocommunity.colorscheme.onigiri" },
-  { import = "astrocommunity.colorscheme.tokyonight" },
+  -- { import = "astrocommunity.colorscheme.onigiri" },
+  -- { import = "astrocommunity.colorscheme.tokyonight" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   {
     -- further customize the options set by the community
