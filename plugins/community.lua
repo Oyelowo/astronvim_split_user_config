@@ -42,6 +42,7 @@ return {
   -- Has some weird error messages for now
   -- { import = "astrocommunity.motion.mini-basics" },
   { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.motion.flit-nvim" },
   { import = "astrocommunity.motion.mini-bracketed" },
   { import = "astrocommunity.motion.mini-move" },
   { import = "astrocommunity.motion.portal-nvim" },
