@@ -1,3 +1,4 @@
+-- NOTE: Never ever use neodim plugin, drags and slows down my editor
 return {
   -- Add the community repository of plugin specifications
   "AstroNvim/astrocommunity",
@@ -55,7 +56,6 @@ return {
   -- { import = "astrocommunity.project.neoconf-nvim" },
 
   { import = "astrocommunity.utility.noice-nvim" },
-  { import = "astrocommunity.utility.neodim" },
 
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
 
