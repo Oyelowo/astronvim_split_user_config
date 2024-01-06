@@ -5,7 +5,18 @@
 -- automatically pick-up stored data by this setting.)
 return {
   -- first key is the mode
+  v = {
+
+    ["<Space>lx"] = { "<cmd>RustCodeAction<CR>", desc = "Rust Code Action" },
+    -- ["<Space>la"] = { "<cmd>RustCodeAction<CR>", desc = "Rust Code Action" },
+    -- ["<Splace>lx"] = { function() vim.lsp.buf.code_action() end, desc = "Rust Code Action" },
+    -- ["<Space>la"] = { function() vim.lsp.buf.code_action() end, desc = "Rust Code Action" },
+  },
   n = {
+    ["<Space>lx"] = { "<cmd>RustCodeAction<CR>", desc = "Rust Code Action" },
+    -- ["<Space>la"] = { function() vim.lsp.buf.code_action() end, desc = "Rust Code Action" },
+    -- ["<Space>lx"] = { function() vim.lsp.buf.code_action() end, desc = "Rust Code Action" },
+
     -- second key is the lefthand side of the map
 
     -- navigate buffer tabs with `H` and `L`
