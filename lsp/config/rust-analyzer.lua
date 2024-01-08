@@ -9,6 +9,16 @@ return {
                     enable = false,
                 },
             },
+            cargo = {
+                extraEnv = { CARGO_PROFILE_RUST_ANALYZER_INHERITS = 'dev', },
+                extraArgs = { "--profile", "rust-analyzer", },
+            },
+            -- Add clippy lints for Rust.
+            checkOnSave = {
+                allFeatures = true,
+                command = "clippy",
+                extraArgs = { "--no-deps" },
+            },
         },
     },
 }
